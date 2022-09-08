@@ -14,11 +14,12 @@ const Home: NextPage = () => {
       <SeoHead input={seo} />
       <LayoutHome>
         <div className="bg-white">
-          {/* Big banner */}
+          {/* Banner */}
           <BannerImage />
-          {/*  */}
-
-          <div className="container mx-auto"></div>
+          {/* end of banner */}
+          {/* Main content */}
+          <div className="container mx-auto py-[2em]"></div>
+          {/* end of main content */}
         </div>
       </LayoutHome>
     </>
