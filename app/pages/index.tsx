@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import SeoHead from "../components/partials/seo-head/seo-head";
 import { LayoutHome } from "../components/layouts/layout-home/layout-home";
-import { BannerImage } from "../components/partials/banner-image/banner-image";
+import { SectionQuickAction } from "../components/partials/section-quick-action/section-quick-action";
 
 const Home: NextPage = () => {
   //#region SEO
@@ -14,9 +14,9 @@ const Home: NextPage = () => {
       <SeoHead input={seo} />
       <LayoutHome>
         <div className="bg-white">
-          {/* Banner */}
-          <BannerImage />
-          {/* end of banner */}
+          {/* Quick actions */}
+          <SectionQuickAction />
+          {/* end of quick actions */}
           {/* Main content */}
           <div className="container mx-auto py-[2em]"></div>
           {/* end of main content */}
@@ -25,5 +25,4 @@ const Home: NextPage = () => {
     </>
   );
 };
-
 export default Home;

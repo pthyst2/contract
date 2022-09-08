@@ -10,7 +10,10 @@ module.exports = {
         "mainLight": "#00A0B0",
         "second": "#6A4A3C",
         "secondDark": "#4C3329"
-      }  
+      },
+      fontFamily: {
+        'delaGothicOne': 'Dela Gothic One'
+      }
     },
   },
   plugins: [],
