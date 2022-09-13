@@ -19,7 +19,7 @@ const Home: NextPage = () => {
               I have contracts need to sign !
             </p>
             <div className="buttons py-4">
-              <Link href="">
+              <Link href="sign-in">
                 <a className="rounded-[4px] text-[13px] btn btn-white py-2 px-4 mb-2">
                   Sign In
                 </a>
@@ -40,7 +40,7 @@ const Home: NextPage = () => {
               新しい契約を作成したい！
             </p>
             <div className="buttons py-4">
-              <Link href="">
+              <Link href="sign-in">
                 <a className="rounded-[4px] text-[13px] btn btn-white py-2 px-4 mb-2">
                   ログイン
                 </a>
